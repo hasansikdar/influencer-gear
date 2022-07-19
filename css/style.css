@@ -114,6 +114,9 @@ header{
     justify-content:space-between;
     padding:25px 0;
 }
+.menu {
+    display:none;
+}
 .menu i {
     font-size:2rem;
     z-index:111;
@@ -375,6 +378,9 @@ header{
     mobile device 480px
 ==============================*/
 @media all and (max-width:480px){
+    .logo h6 {
+        font-size:18px !important;
+    }
     .navbar {
         position:absolute;
         left:-200%;top:0%;
@@ -406,6 +412,9 @@ header{
     .header-container {
         padding:0;
     }
+    .menu {
+        display:block;
+    }
     .menu i {
         display:block;
         z-index:1111;
@@ -417,6 +426,9 @@ header{
     .devices {
         grid-template-columns:repeat(1, 1fr) !important;
     }
+    .logos {
+        grid-template-columns:repeat(3, 1fr) !important;
+    }
     .product-content {
         display:none;
     }
@@ -425,6 +437,13 @@ header{
     }
     .feature-product .container {
         width:100%;
+    }
+    .banner-content h1 {
+        font-size:1.6rem;
+    }
+    .banner-content p {
+        font-size:13px;
+        font-weight:normal;
     }
 }
 
